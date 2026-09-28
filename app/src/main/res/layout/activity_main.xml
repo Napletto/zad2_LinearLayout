@@ -12,11 +12,11 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#008080"
+        android:background="#c9c0b3"
         android:gravity="bottom|right"
         android:padding="12dp"
-        android:text="Panel sterowania"
-        android:textColor="#FFFFFF"
+        android:text="0"
+        android:textColor="#000000"
         android:textSize="32sp" />
 
     <LinearLayout
@@ -73,21 +73,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="A" />
+            android:text="9" />
 
         <Button
             android:id="@+id/btnB"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="B" />
+            android:text="8" />
 
         <Button
             android:id="@+id/btnC"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="C" />
+            android:text="7" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,21 +102,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="D" />
+            android:text="6" />
 
         <Button
             android:id="@+id/btnE"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="E" />
+            android:text="5" />
 
         <Button
             android:id="@+id/btnF"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="F" />
+            android:text="4" />
     </LinearLayout>
         <LinearLayout
             android:id="@+id/rowTop"
@@ -130,30 +130,58 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="A" />
+                android:text="3" />
 
             <Button
                 android:id="@+id/btnB"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="B" />
+                android:text="2" />
 
             <Button
                 android:id="@+id/btnC"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="C" />
+                android:text="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rowTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="," />
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="=" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
         android:id="@+id/btnConfirm"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="24dp"
-        android:text="Zatwierdź" />
+        android:layout_marginTop="8dp"
+        android:text="C" />
 
 </LinearLayout>
